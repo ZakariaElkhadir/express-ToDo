@@ -1,5 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
+import taskRoute from './routes/taskRoutes.js';
 const app = express();
 const port = 5000;
 
@@ -24,6 +25,7 @@ db.once("open", () => {
   console.log("Connected to DB!");
 });
 
+app.use(taskRoute)
 app.listen(port, () => {
-  console.log("Server sterted on port", port);
+  console.log("Server started on port", port);
 });
