@@ -16,7 +16,7 @@ This is a simple TodoList backend application built with Express.js. It provides
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/express-todo.git
+    git clone https://github.com/ZakariaElkhadir/express-todo.git
     ```
 2. Navigate to the project directory:
     ```bash
